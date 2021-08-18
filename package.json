@@ -1,0 +1,31 @@
+{
+  "name": "portfolio_nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "serve": "nodemon server.js"
+  },
+  "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.0",
+    "contentful": "^8.4.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "next": "10.2.3",
+    "nextjs-cors": "^1.0.5",
+    "nodemailer": "^6.6.3",
+    "react": "17.0.2",
+    "react-bootstrap": "^2.0.0-beta.4",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "styled-components": "^5.3.0",
+    "styled-normalize": "^8.0.7",
+    "swr": "^0.5.6"
+  }
+}
