@@ -43,7 +43,7 @@ const mail = () => {
 
     } catch (err) {
 
-      const data = err.data.msg;
+      const data = err.message;
       const resStatus = err.status
 
       // set message to state
