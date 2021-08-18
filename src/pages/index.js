@@ -21,7 +21,7 @@ export const getServerSideProps = async (ctx) => {
   const res = await axios.get('https://api.github.com/users/kuri-sun')
   const data = await res.data
 
-  // contentful api
+  // contentful api //
   const resFromContentful = await client.getEntries({ content_type: 'projects' })
 
   return {
