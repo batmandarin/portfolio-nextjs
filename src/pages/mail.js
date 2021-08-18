@@ -18,7 +18,7 @@ const mail = () => {
     e.preventDefault()
 
     try {
-      const res = await axios.post("/.netlify/functions/functions", {
+      const res = await axios.post("https://kuri-sun-portfolio.netlify.app/.netlify/functions/functions", {
         data: {
           name: name,
           address: address,

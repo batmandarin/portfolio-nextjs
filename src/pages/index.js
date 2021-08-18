@@ -7,6 +7,7 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import axios from 'axios';
 import { createClient } from 'contentful'
+import useSWR from 'swr';
 
 // contentful api
 const client = createClient({
@@ -15,7 +16,7 @@ const client = createClient({
 })
 
 
-export const getStaticProps = async (ctx) => {
+export const getServerSideProps = async (ctx) => {
   // github api
   const res = await axios.get('https://api.github.com/users/kuri-sun')
   const data = await res.data
