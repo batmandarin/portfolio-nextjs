@@ -5,7 +5,10 @@ import { BoxLoading } from "react-loadingg";
 const Loading = () => {
   return (
     <Fragment>
-      <BoxLoading />;
+      <BoxLoading />
+      <div style={{ textAlign: "center", marginTop: "31rem" }}>
+        now loading ...
+      </div>
     </Fragment>
   );
 };
