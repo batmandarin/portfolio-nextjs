@@ -1,9 +1,9 @@
-import { IoIosArrowDropdown } from 'react-icons/io';
-import styled from 'styled-components';
+import { IoIosArrowDropdown } from "react-icons/io";
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
-  background-color: #0F1624;
+  background-color: #0f1624;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
@@ -22,8 +22,16 @@ export const Container = styled.div`
 export const Span = styled.span`
   font-size: 2rem;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   margin-left: 1rem;
+  opacity: 0.9;
+  transition: 0.6s;
+  &:hover {
+    color: #fff;
+    opacity: 1;
+    cursor: pointer;
+    font-weight: 1000;
+  }
 `;
 
 export const Div1 = styled.div`
@@ -59,13 +67,15 @@ export const Div3 = styled.div`
 // Navigation Links
 export const NavLink = styled.a`
   font-size: 2rem;
+  font-weight: 400;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
-  transition: 0.4s ease;
+  transition: 0.5s ease;
   &:hover {
     color: #fff;
     opacity: 1;
     cursor: pointer;
+    font-weight: 1000;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
@@ -105,8 +115,8 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   display: flex;
   align-self: center;
   transition: 0.3s ease;
-  opacity: ${({ isOpen }) => (isOpen ? '1' : '.75')};
-  transform: ${({ isOpen }) => (isOpen ? 'scaleY(-1)' : 'scaleY(1)')};
+  opacity: ${({ isOpen }) => (isOpen ? "1" : ".75")};
+  transform: ${({ isOpen }) => (isOpen ? "scaleY(-1)" : "scaleY(1)")};
 
   &:hover {
     opacity: 1;
@@ -118,18 +128,16 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   }
 `;
 
-
-// Social Icons 
+// Social Icons
 
 export const SocialIcons = styled.a`
-transition: 0.3s ease;
-color: white;
-border-radius: 50px;
+  transition: 0.3s ease;
+  color: white;
+  border-radius: 50px;
   padding: 8px;
-&:hover {
+  &:hover {
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
-    
   }
-`
+`;

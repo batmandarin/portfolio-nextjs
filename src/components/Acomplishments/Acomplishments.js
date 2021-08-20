@@ -1,12 +1,13 @@
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
-
-
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const Acomplishments = ({ data }) => {
-
   return (
-    < Section >
+    <Section>
       <SectionDivider />
       <SectionTitle>Personal Achievement</SectionTitle>
       <Boxes>
@@ -19,10 +20,8 @@ const Acomplishments = ({ data }) => {
           <BoxText>Github public repositories</BoxText>
         </Box>
       </Boxes>
-    </Section >
-  )
+    </Section>
+  );
 };
-
-
 
 export default Acomplishments;

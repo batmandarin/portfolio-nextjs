@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next start && next export",
+    "build": "next build",
     "start": "next start",
     "serve": "nodemon server.js"
   },
@@ -17,6 +17,8 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
+    "mongodb": "^4.1.0",
+    "mongoose": "^5.13.7",
     "next": "10.2.3",
     "nextjs-cors": "^1.0.5",
     "nodemailer": "^6.6.3",
@@ -24,6 +26,7 @@
     "react-bootstrap": "^2.0.0-beta.4",
     "react-dom": "17.0.2",
     "react-icons": "^4.2.0",
+    "react-loadingg": "^1.7.2",
     "styled-components": "^5.3.0",
     "styled-normalize": "^8.0.7",
     "swr": "^0.5.6"
