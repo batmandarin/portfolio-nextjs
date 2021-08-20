@@ -11,14 +11,18 @@ const Acomplishments = ({ data }) => {
       <SectionDivider />
       <SectionTitle>Personal Achievement</SectionTitle>
       <Boxes>
-        <Box>
-          <BoxNum>{data.followers}</BoxNum>
-          <BoxText>Github followers</BoxText>
-        </Box>
-        <Box>
-          <BoxNum>{data.public_repos}</BoxNum>
-          <BoxText>Github public repositories</BoxText>
-        </Box>
+        <Link href="https://github.com/kuri-sun">
+          <Box>
+            <BoxNum>{data.followers}</BoxNum>
+            <BoxText>Github followers</BoxText>
+          </Box>
+        </Link>
+        <Link href="https://github.com/kuri-sun">
+          <Box>
+            <BoxNum>{data.public_repos}</BoxNum>
+            <BoxText>Github public repositories</BoxText>
+          </Box>
+        </Link>
       </Boxes>
     </Section>
   );
