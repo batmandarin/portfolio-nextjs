@@ -4,6 +4,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
+import Link from "next/link";
 
 const Acomplishments = ({ data }) => {
   return (
