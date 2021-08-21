@@ -7,7 +7,7 @@ export const Container = styled.div`
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
-  padding: 1rem;
+  padding: 2.7rem;
   padding-top: 2.5rem;
 
   @media ${(props) => props.theme.breakpoints.sm} {
