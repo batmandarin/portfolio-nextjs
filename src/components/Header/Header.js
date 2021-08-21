@@ -64,17 +64,17 @@ const Header = () => {
       <Div3>
         <Link href="/mail">
           <SocialIcons>
-            <AiOutlineMail size="3rem" />
+            <AiOutlineMail size="2.5rem" />
           </SocialIcons>
         </Link>
         <SocialIcons href="https://github.com/kuri-sun">
-          <AiFillGithub size="3rem" />
+          <AiFillGithub size="2.5rem" />
         </SocialIcons>
         <SocialIcons href="https://www.linkedin.com/in/haruki-kuriwada-97591220b/">
-          <AiFillLinkedin size="3rem" />
+          <AiFillLinkedin size="2.5rem" />
         </SocialIcons>
         <SocialIcons href="https://twitter.com/Haruki15Soccer">
-          <AiFillTwitterCircle size="3rem" />
+          <AiFillTwitterCircle size="2.5rem" />
         </SocialIcons>
       </Div3>
     </Container>

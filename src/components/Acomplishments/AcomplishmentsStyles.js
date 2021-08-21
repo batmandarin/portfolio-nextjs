@@ -61,10 +61,12 @@ export const BoxNum = styled.h5`
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: 28px;
     line-height: 32px;
+    color: #585a5c;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 24px;
     line-height: 26px;
+    color: #585a5c;
   }
 `;
 
