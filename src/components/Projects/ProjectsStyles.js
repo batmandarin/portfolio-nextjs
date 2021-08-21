@@ -112,8 +112,7 @@ export const Tag = styled.li`
   border-radius: 3rem;
   padding: 1rem 1.2rem;
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 1rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-bottom: 1rem;
   }
 `;
