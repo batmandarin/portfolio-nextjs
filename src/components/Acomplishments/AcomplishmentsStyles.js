@@ -50,8 +50,8 @@ export const Box = styled.div`
   }
 `;
 export const BoxNum = styled.h5`
-  font-style: normal;
-  font-weight: 700;
+  font-style: italic;
+  font-weight: 1000;
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.01em;
@@ -72,7 +72,7 @@ export const BoxNum = styled.h5`
 
 export const BoxText = styled.p`
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -84,7 +84,7 @@ export const BoxText = styled.p`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 14px;
   }
 `;

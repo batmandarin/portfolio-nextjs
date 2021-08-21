@@ -1,17 +1,33 @@
+import React from "react";
+import {
+  AiOutlineMail,
+  AiFillGithub,
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+} from "react-icons/ai";
 
-import React from 'react';
-import { AiOutlineMail, AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
-
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { SocialIcons } from "../Header/HeaderStyles";
+import {
+  CompanyContainer,
+  FooterWrapper,
+  LinkColumn,
+  LinkItem,
+  LinkList,
+  LinkTitle,
+  Slogan,
+  SocialContainer,
+  SocialIconsContainer,
+} from "./FooterStyles";
 
 const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>- Email -</LinkTitle>
-          <LinkItem href="mailto:harukikuriwada@gmail.com">harukikuriwada@gmail.com</LinkItem>
+          <LinkTitle> &nbsp;- Email -</LinkTitle>
+          <LinkItem href="mailto:harukikuriwada@gmail.com">
+            harukikuriwada@gmail.com
+          </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
