@@ -9,6 +9,7 @@ import useSWR from "swr";
 import Loading from "../components/Loading/Loading";
 import Failing from "../components/Failing/Failing";
 import Header from "../components/Header/Header";
+
 const githubAPIEndpoint = "https://api.github.com/users/kuri-sun";
 
 // define fetcher.

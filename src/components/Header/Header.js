@@ -7,7 +7,6 @@ import {
   AiFillTwitterCircle,
 } from "react-icons/ai";
 import { WiAlien } from "react-icons/wi";
-import { GiAlienSkull, GiAlienBug } from "react-icons/gi";
 import {
   Container,
   Div1,
@@ -17,7 +16,6 @@ import {
   SocialIcons,
   Span,
 } from "./HeaderStyles";
-import { FaRedditAlien } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -29,7 +27,6 @@ const Header = () => {
               display: "flex",
               alignItems: "center",
               color: "white",
-              marginBottom: "20px",
             }}
           >
             <WiAlien size="3rem" />
@@ -40,23 +37,17 @@ const Header = () => {
       <Div2>
         <li>
           <Link href="#projects">
-            <NavLink>
-              <GiAlienSkull size="2.5rem" /> Projects
-            </NavLink>
+            <NavLink>Projects</NavLink>
           </Link>
         </li>
         <li>
           <Link href="#tech">
-            <NavLink>
-              <GiAlienBug size="2.5rem" /> Tech
-            </NavLink>
+            <NavLink> Technology</NavLink>
           </Link>
         </li>
         <li>
           <Link href="#about">
-            <NavLink>
-              <FaRedditAlien size="2.5rem" /> About
-            </NavLink>
+            <NavLink> About</NavLink>
           </Link>
         </li>
       </Div2>

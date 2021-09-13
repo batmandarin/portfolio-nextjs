@@ -6,7 +6,6 @@ import {
   ExternalLinks,
   GridContainer,
   HeaderThree,
-  Hr,
   Tag,
   TagList,
   TitleContent,

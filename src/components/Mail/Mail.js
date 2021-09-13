@@ -94,9 +94,9 @@ const Mail = () => {
             />
             <Form.Text
               className="text-light font-weight-light"
-              style={{ fontSize: "1.8rem" }}
+              style={{ fontSize: "1.7rem" }}
             >
-              We'll never share your email with anyone else.
+              I will never share your email address with anyone else.
             </Form.Text>
           </Form.Group>
 

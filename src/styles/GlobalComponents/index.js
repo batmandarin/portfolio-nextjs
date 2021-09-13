@@ -26,8 +26,8 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
   font-family: "Open Sans", sans-serif;
-  font-weight: 1000;
-  font-size: ${(props) => (props.main ? "65px" : "56px")};
+  font-weight: bold;
+  font-size: ${(props) => (props.main ? "68px" : "56px")};
   line-height: ${(props) => (props.main ? "72px" : "56px")};
   width: max-content;
   max-width: 100%;

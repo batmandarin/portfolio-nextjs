@@ -47,6 +47,7 @@ export const Div2 = styled.div`
   display: flex;
   justify-content: space-around;
   transition: 0.4s;
+  padding-top: 0.5rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
     font-size: 1.5rem;
