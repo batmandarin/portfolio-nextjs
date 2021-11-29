@@ -12,7 +12,8 @@ export const TestimorialsData = [
   {
     name: "Yael Schy",
     company: "Dramatic Strides",
-    testmonial: "thanks for cooperating",
+    testmonial:
+      "Thanks for the good meeting today and for all of your hard work on my new website. I really appreciate it. I will study the instructions you gave me and will let you know if I have any questions.",
     image:
       "https://myportfolio-bucket-haruki.s3.ca-central-1.amazonaws.com/yeal.jpeg",
   },
