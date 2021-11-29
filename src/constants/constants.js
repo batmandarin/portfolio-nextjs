@@ -3,7 +3,7 @@ export const TimeLineData = [
   { year: 2020, text: 'Finished studying "Arduino"' },
   { year: 2021, text: "Start to study Web and Mobile development" },
   {
-    year: 2022,
+    year: 2022 + "~",
     text: "I want to grab some exprience in Canada as much as possible!!",
   },
 ];
