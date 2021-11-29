@@ -1,8 +1,19 @@
-import React from 'react';
-import { DiReact, DiMongodb } from 'react-icons/di';
-import { AiFillHtml5, AiFillDatabase } from 'react-icons/ai'
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import { DiReact, DiMongodb } from "react-icons/di";
+import { AiFillHtml5, AiFillDatabase } from "react-icons/ai";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
 const Technologies = () => (
   <Section id="tech">
@@ -17,8 +28,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            a little bit with <br />
-            "React.js"
+            exprience with <br />
+            "React.js", "Next.js", "Swift"
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -27,8 +38,20 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            a little bit with<br />
-            "Node.js"
+            exprience with
+            <br />
+            "Node.js", "Java"
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <AiFillDatabase size="3rem" />
+        <ListContainer>
+          <ListTitle>Database</ListTitle>
+          <ListParagraph>
+            exprience with
+            <br />
+            "Postgres", "MySQL"
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -37,7 +60,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>UI/UX-design</ListTitle>
           <ListParagraph>
-            volunteer job experiece with<br />
+            volunteer job experiece with
+            <br />
             "HTML", "CSS" and "WordPress"
           </ListParagraph>
         </ListContainer>
