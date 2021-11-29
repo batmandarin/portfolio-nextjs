@@ -15,7 +15,7 @@ import {
   Company,
   CardSection,
   Hr,
-} from "./TestmonialStyles";
+} from "./TestimonialStyles";
 
 const Testmonial = () => {
   const testmonials = TestmorialsData;
