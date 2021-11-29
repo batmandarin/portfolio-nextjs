@@ -9,6 +9,7 @@ import useSWR from "swr";
 import Loading from "../components/Loading/Loading";
 import Failing from "../components/Failing/Failing";
 import Header from "../components/Header/Header";
+import Testmonial from "../components/Testmonials/Testmonial";
 
 const githubAPIEndpoint = "https://api.github.com/users/kuri-sun";
 
@@ -35,13 +36,13 @@ const Home = () => {
       </>
     );
 
-  if (data_1 && data_2) console.log(data_2);
   return (
     <Layout>
       <Section grid>
         <Hero />
       </Section>
       <Projects products={data_1.data} />
+      <Testmonial />
       <Technologies />
       <Timeline />
       <Acomplishments data={data_2} />

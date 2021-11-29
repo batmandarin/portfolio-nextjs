@@ -42,6 +42,10 @@ export default class MyDocument extends Document {
           />
           <title>haruki portfolio</title>
           <meta key="haruki 玄紀　kuriwada kuri-sun" />
+          <meta
+            name="description"
+            content="This is Haruki's(Kuri-sun) portfolio page. Take a look Thank you. #kuriwada #haruki #kuri-sun"
+          />
         </Head>
         <body>
           <Main />

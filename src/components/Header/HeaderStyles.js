@@ -136,7 +136,8 @@ export const SocialIcons = styled.a`
   border-radius: 50px;
   padding: 8px;
   &:hover {
-    background-color: #212d45;
+    color: white;
+    background-color: gray;
     transform: scale(1.2);
     cursor: pointer;
   }

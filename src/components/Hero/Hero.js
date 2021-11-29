@@ -17,7 +17,7 @@ const Hero = (props) => (
       </SectionTitle>
       <SectionText>
         I am CICCC student and I am studying mobile development.
-        <br />I started to love to use JavaScript.
+        <br />I started to love to use Java.
       </SectionText>
       <Button
         onClick={() =>

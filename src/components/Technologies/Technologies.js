@@ -1,6 +1,8 @@
 import React from "react";
-import { DiReact, DiMongodb } from "react-icons/di";
-import { AiFillHtml5, AiFillDatabase } from "react-icons/ai";
+import { DiReact } from "react-icons/di";
+import { AiFillDatabase } from "react-icons/ai";
+import { DiWordpress } from "react-icons/di";
+import { DiJava } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -19,9 +21,7 @@ const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
-      I am completely beginner of web and mobile devlopment.
-    </SectionText>
+    <SectionText>I am beginner of web and mobile devlopment.</SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />
@@ -34,7 +34,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiMongodb size="3rem" />
+        <DiJava size="3rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
@@ -56,7 +56,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <AiFillHtml5 size="3rem" />
+        <DiWordpress size="3rem" />
         <ListContainer>
           <ListTitle>UI/UX-design</ListTitle>
           <ListParagraph>

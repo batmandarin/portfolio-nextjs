@@ -7,3 +7,13 @@ export const TimeLineData = [
     text: "I want to grab some exprience in Canada as much as possible!!",
   },
 ];
+
+export const TestmorialsData = [
+  {
+    name: "Yael Schy",
+    company: "Dramatic Strides",
+    testmonial: "thanks for cooperating",
+    image:
+      "http://new.dramaticstrides.com/wp-content/uploads/2021/10/yeal.jpeg",
+  },
+];
