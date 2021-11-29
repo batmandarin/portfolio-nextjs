@@ -14,6 +14,6 @@ export const TestimorialsData = [
     company: "Dramatic Strides",
     testmonial: "thanks for cooperating",
     image:
-      "http://new.dramaticstrides.com/wp-content/uploads/2021/10/yeal.jpeg",
+      "https://myportfolio-bucket-haruki.s3.ca-central-1.amazonaws.com/yeal.jpeg",
   },
 ];
