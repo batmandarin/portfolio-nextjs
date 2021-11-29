@@ -20,9 +20,9 @@ const Testimonial = () => {
   const testmonials = TestimorialsData;
 
   return (
-    <Section style={{ marginBottom: "5rem" }}>
+    <Section style={{ marginBottom: "3rem" }}>
       <SectionDivider />
-      <SectionTitle>Testmonials</SectionTitle>
+      <SectionTitle>Testimonials</SectionTitle>
       <SectionText>Here are what my clients said.</SectionText>
       <GridContainer>
         {testmonials.map((testmonial, index) => (

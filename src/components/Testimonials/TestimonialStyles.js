@@ -28,7 +28,7 @@ export const Name = styled.div`
   background-color: #a7a7a7;
   border-radius: 5px;
   padding: 1rem 0 0 0;
-  margin: 0 6.5rem 2rem 6.5rem;
+  margin: 0 4rem 2rem 4rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 1.5rem;
   }
