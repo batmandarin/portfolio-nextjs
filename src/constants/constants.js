@@ -8,7 +8,7 @@ export const TimeLineData = [
   },
 ];
 
-export const TestmorialsData = [
+export const TestimorialsData = [
   {
     name: "Yael Schy",
     company: "Dramatic Strides",

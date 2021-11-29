@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const TestmonialCard = styled.div`
+export const TestimonialCard = styled.div`
   border-radius: 10px;
   color: white;
   box-shadow: 10px 10px 20px rgba(90, 88, 88, 0.9);

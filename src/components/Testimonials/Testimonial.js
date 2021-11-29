@@ -6,28 +6,27 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { GridContainer } from "../Projects/ProjectsStyles";
-import { TestmorialsData } from "../../constants/constants";
+import { TestimorialsData } from "../../constants/constants";
 import {
-  TestmonialCard,
+  TestimonialCard,
   Img,
   CardInfo,
   Name,
   Company,
-  CardSection,
   Hr,
 } from "./TestimonialStyles";
 
-const Testmonial = () => {
-  const testmonials = TestmorialsData;
+const Testimonial = () => {
+  const testmonials = TestimorialsData;
 
   return (
     <Section style={{ marginBottom: "5rem" }}>
       <SectionDivider />
       <SectionTitle>Testmonials</SectionTitle>
-      <SectionText>I am beginner of web and mobile devlopment.</SectionText>
+      <SectionText>Here are what my clients said.</SectionText>
       <GridContainer>
         {testmonials.map((testmonial, index) => (
-          <TestmonialCard key={index}>
+          <TestimonialCard key={index}>
             <Img src={testmonial.image} />
             <Name>
               {testmonial.name}
@@ -36,11 +35,11 @@ const Testmonial = () => {
               <Company>{testmonial.company}</Company>
             </Name>
             <CardInfo>{testmonial.testmonial}</CardInfo>
-          </TestmonialCard>
+          </TestimonialCard>
         ))}
       </GridContainer>
     </Section>
   );
 };
 
-export default Testmonial;
+export default Testimonial;

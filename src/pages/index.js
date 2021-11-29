@@ -9,7 +9,7 @@ import useSWR from "swr";
 import Loading from "../components/Loading/Loading";
 import Failing from "../components/Failing/Failing";
 import Header from "../components/Header/Header";
-import Testmonial from "../components/Testmonials/Testmonial";
+import Testimonial from "../components/Testimonials/Testimonial";
 
 const githubAPIEndpoint = "https://api.github.com/users/kuri-sun";
 
@@ -42,7 +42,7 @@ const Home = () => {
         <Hero />
       </Section>
       <Projects products={data_1.data} />
-      <Testmonial />
+      <Testimonial />
       <Technologies />
       <Timeline />
       <Acomplishments data={data_2} />
