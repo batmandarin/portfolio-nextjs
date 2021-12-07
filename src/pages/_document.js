@@ -41,10 +41,11 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <title>haruki portfolio</title>
-          <meta key="haruki 玄紀　kuriwada kuri-sun" />
+          <meta key="haruki kuriwada 栗和田 玄紀 kuri-sun" />
+          <meta name="robots" content="noindex"></meta>
           <meta
             name="description"
-            content="This is Haruki's(Kuri-sun) portfolio page. Take a look Thank you. #kuriwada #haruki #kuri-sun"
+            content="This is Kuri-sun portfolio page. Take a look Thank you. I am a developper in Vancouver.#kuri-sun"
           />
         </Head>
         <body>
