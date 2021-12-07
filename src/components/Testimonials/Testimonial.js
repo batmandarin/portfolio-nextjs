@@ -12,8 +12,8 @@ import {
   Img,
   CardInfo,
   Name,
-  Company,
-  Hr,
+  A,
+  P,
 } from "./TestimonialStyles";
 
 const Testimonial = () => {
@@ -29,12 +29,16 @@ const Testimonial = () => {
           <TestimonialCard key={index}>
             <Img src={testmonial.image} />
             <Name>
-              {testmonial.name}
-              <br />
-              <Hr />
-              <Company>{testmonial.company}</Company>
+              <strong>{testmonial.name}</strong> from
+              <A href={testmonial.companyUrl}>
+                <strong> {testmonial.company}</strong>
+              </A>
             </Name>
-            <CardInfo>{testmonial.testmonial}</CardInfo>
+            <a href={testmonial.testmonialUrl}>
+              <CardInfo>
+                <Testimonial>{testmonial.testmonial}</Testimonial>
+              </CardInfo>
+            </a>
           </TestimonialCard>
         ))}
       </GridContainer>
