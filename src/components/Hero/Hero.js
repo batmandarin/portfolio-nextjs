@@ -16,13 +16,15 @@ const Hero = (props) => (
         I'm Haruki Kuriwada.
       </SectionTitle>
       <SectionText>
-        I am CICCC student and I am studying mobile development.
+        I am CICCC student. Now I am studying mobile development.
         <br />I started to love to use Java.
       </SectionText>
       <Button
         onClick={() =>
-          (window.location =
-            "https://docs.google.com/document/d/1dpH7ZGRcXgTWkY6UjsrqOUMmWLuCTglBk2pQV3XfX1E/edit?usp=sharing")
+          window.open(
+            "https://docs.google.com/document/d/1dpH7ZGRcXgTWkY6UjsrqOUMmWLuCTglBk2pQV3XfX1E/edit?usp=sharing",
+            "_blank"
+          )
         }
       >
         Get Resume

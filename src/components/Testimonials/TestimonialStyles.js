@@ -52,6 +52,7 @@ export const Company = styled.div`
 `;
 
 export const CardInfo = styled.div`
+  color: black;
   background-color: white;
   border-radius: 5px;
   padding: 2.9rem;
@@ -71,6 +72,7 @@ export const A = styled.a`
   font-size: 1.7rem;
   transition: 0.6s;
   &:hover {
-    color: #6bffe1;
+    color: #ffffff;
+    text-shadow: 2px 2px #48db94;
   }
 `;

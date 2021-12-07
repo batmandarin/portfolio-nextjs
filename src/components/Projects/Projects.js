@@ -44,7 +44,9 @@ const Projects = ({ products }) => {
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={source}>Visit App</ExternalLinks>
+              <ExternalLinks href={source} target="_blank">
+                Visit App
+              </ExternalLinks>
             </UtilityList>
           </BlogCard>
         ))}

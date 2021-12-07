@@ -69,7 +69,7 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle>About me</SectionTitle>
       <SectionText>
-        I am CICCC student and I am studying mobile development.
+        I am CICCC student. Now I am studying mobile development.
         <br />I started to love to use JavaScript.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
@@ -81,13 +81,15 @@ const Timeline = () => {
             >
               <CarouselItem
                 index={index}
+                key={index}
                 id={`carousel_item-${index}`}
                 active={activeItem}
                 onClick={(e) => handleClick(e, index)}
               >
-                <CarouselItemTitle>
+                <CarouselItemTitle key={index}>
                   {item.year}
                   <CarouselItemImg
+                    key={index}
                     width="208"
                     height="6"
                     viewBox="0 0 208 6"

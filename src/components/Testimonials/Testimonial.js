@@ -7,14 +7,7 @@ import {
 } from "../../styles/GlobalComponents";
 import { GridContainer } from "../Projects/ProjectsStyles";
 import { TestimorialsData } from "../../constants/constants";
-import {
-  TestimonialCard,
-  Img,
-  CardInfo,
-  Name,
-  A,
-  P,
-} from "./TestimonialStyles";
+import { TestimonialCard, Img, CardInfo, Name, A } from "./TestimonialStyles";
 
 const Testimonial = () => {
   const testmonials = TestimorialsData;
@@ -30,13 +23,13 @@ const Testimonial = () => {
             <Img src={testmonial.image} />
             <Name>
               <strong>{testmonial.name}</strong> from
-              <A href={testmonial.companyUrl}>
+              <A href={testmonial.companyUrl} target="_blank">
                 <strong> {testmonial.company}</strong>
               </A>
             </Name>
-            <a href={testmonial.testmonialUrl}>
-              <CardInfo>
-                <Testimonial>{testmonial.testmonial}</Testimonial>
+            <a href={testmonial.testmonialUrl} target="_blank">
+              <CardInfo href={testmonial.testmonialUrl}>
+                {testmonial.testmonial}
               </CardInfo>
             </a>
           </TestimonialCard>
