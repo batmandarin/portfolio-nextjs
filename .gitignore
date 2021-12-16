@@ -4,7 +4,6 @@
 /node_modules
 /.pnp
 .pnp.js
-next.config.js
 
 # testing
 /coverage
@@ -39,3 +38,4 @@ yarn-error.log*
 
 # local environment
 .next.config.js
+
