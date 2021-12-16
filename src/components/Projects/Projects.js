@@ -42,7 +42,7 @@ const Projects = ({ products }) => {
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={source} target="_blank">
+              <ExternalLinks href={source} target="_blank" rel="noreferrer">
                 Visit App
               </ExternalLinks>
             </UtilityList>

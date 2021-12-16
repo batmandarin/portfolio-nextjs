@@ -56,13 +56,25 @@ const Header = () => {
             <AiOutlineMail size="2.5rem" />
           </SocialIcons>
         </Link>
-        <SocialIcons href="https://github.com/kuri-sun">
+        <SocialIcons
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/kuri-sun"
+        >
           <AiFillGithub size="2.5rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/haruki-kuriwada-97591220b/">
+        <SocialIcons
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/haruki-kuriwada-97591220b/"
+        >
           <AiFillLinkedin size="2.5rem" />
         </SocialIcons>
-        <SocialIcons href="https://twitter.com/Haruki15Soccer">
+        <SocialIcons
+          target="_blank"
+          rel="noreferrer"
+          href="https://twitter.com/Haruki15Soccer"
+        >
           <AiFillTwitterCircle size="2.5rem" />
         </SocialIcons>
       </Div3>

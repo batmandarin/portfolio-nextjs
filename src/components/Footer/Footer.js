@@ -34,13 +34,25 @@ const Footer = () => {
           <Slogan>copyright@HARUKI_KURIWADA.2021</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/kuri-sun">
+          <SocialIcons
+            href="https://github.com/kuri-sun"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/haruki-kuriwada-97591220b/">
+          <SocialIcons
+            href="https://www.linkedin.com/in/haruki-kuriwada-97591220b/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://twitter.com/Haruki15Soccer">
+          <SocialIcons
+            href="https://twitter.com/Haruki15Soccer"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
         </SocialContainer>

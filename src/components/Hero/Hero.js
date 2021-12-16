@@ -21,7 +21,8 @@ const Hero = (props) => (
         onClick={() =>
           window.open(
             "https://docs.google.com/document/d/1dpH7ZGRcXgTWkY6UjsrqOUMmWLuCTglBk2pQV3XfX1E/edit?usp=sharing",
-            "_blank"
+            "_blank",
+            "noreferrer"
           )
         }
       >

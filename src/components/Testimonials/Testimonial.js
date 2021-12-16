@@ -23,11 +23,11 @@ const Testimonial = () => {
             <Img src={testmonial.image} />
             <Name>
               <strong>{testmonial.name}</strong> from
-              <A href={testmonial.companyUrl} target="_blank">
+              <A href={testmonial.companyUrl} target="_blank" rel="noreferrer">
                 <strong> {testmonial.company}</strong>
               </A>
             </Name>
-            <a href={testmonial.testmonialUrl} target="_blank">
+            <a href={testmonial.testmonialUrl} target="_blank" rel="noreferrer">
               <CardInfo href={testmonial.testmonialUrl}>
                 {testmonial.testmonial}
               </CardInfo>
