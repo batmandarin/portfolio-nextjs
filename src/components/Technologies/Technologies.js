@@ -6,7 +6,6 @@ import { DiJava } from "react-icons/di";
 import {
   Section,
   SectionDivider,
-  SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import {
@@ -21,7 +20,6 @@ const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>I am beginner of web and mobile devlopment.</SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />
@@ -29,7 +27,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             exprience with <br />
-            "React.js", "Next.js", "Swift"
+            "React.js", "Swift"
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -40,7 +38,7 @@ const Technologies = () => (
           <ListParagraph>
             exprience with
             <br />
-            "Node.js", "Java"
+            "JavaScript", "Java"
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -51,7 +49,7 @@ const Technologies = () => (
           <ListParagraph>
             exprience with
             <br />
-            "Postgres", "MySQL"
+            "Postgresql"
           </ListParagraph>
         </ListContainer>
       </ListItem>

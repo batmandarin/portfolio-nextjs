@@ -6,7 +6,6 @@ import {
   AiFillLinkedin,
   AiFillTwitterCircle,
 } from "react-icons/ai";
-import { WiAlien } from "react-icons/wi";
 import {
   Container,
   Div1,
@@ -29,7 +28,6 @@ const Header = () => {
               color: "white",
             }}
           >
-            <WiAlien size="3rem" />
             <Span>Kuri-sun</Span>
           </a>
         </Link>

@@ -41,10 +41,10 @@ const Home = () => {
         <Hero />
       </Section>
       <Projects products={data_1.data} />
-      <Testimonial />
       <Technologies />
       <Timeline />
       <Acomplishments data={data_2} />
+      <Testimonial />
     </Layout>
   );
 };
