@@ -17,8 +17,7 @@ const githubAPIEndpoint = "https://api.github.com/users/kuri-sun";
 let fetcher = (...url) => fetch(...url).then((r) => r.json());
 
 const Home = () => {
-  // useSWR ( i want to use getServerSide rendering but i want to improve user-experience while loading... )
-  // and this is really nice caching features pretty..!!
+  // useSWR
   const { data: data_1, error: error_1 } = useSWR("/api/projects", fetcher);
   const { data: data_2, error: error_2 } = useSWR(githubAPIEndpoint, fetcher);
 
