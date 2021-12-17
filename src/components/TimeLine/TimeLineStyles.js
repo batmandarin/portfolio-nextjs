@@ -142,7 +142,7 @@ export const CarouselButton = styled.button`
   cursor: pointer;
   margin-right: 4px;
   opacity: ${(props) => (props.active === props.index ? `1` : `.2`)};
-  font-size: 35px;
+  font-size: 48px;
   &:focus {
     outline: none;
   }

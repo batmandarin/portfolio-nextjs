@@ -5,7 +5,7 @@
     {
       "src": "/images/haruki-128.png",
       "type": "image/png",
-      "sizes": "128x128"
+      "sizes": "192x192"
     },
     {
       "src": "/images/haruki-512.png",
@@ -16,7 +16,6 @@
   "start_url": "/index.html",
   "background_color": "#fff",
   "display": "standalone",
-  "scope": "https://harukurigandai.com/",
   "theme_color": "#fff",
   "prefer_related_applications": true
 }

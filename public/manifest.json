@@ -5,18 +5,19 @@
     {
       "src": "/images/haruki-128.png",
       "type": "image/png",
-      "sizes": "128x128"
+      "sizes": "128x128",
+      "purpose": "any maskable monochrome"
     },
     {
       "src": "/images/haruki-512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable monochrome"
     }
   ],
   "start_url": "/index.html",
   "background_color": "#fff",
   "display": "standalone",
-  "scope": "https://harukurigandai.com/",
   "theme_color": "#fff",
   "prefer_related_applications": true
 }
