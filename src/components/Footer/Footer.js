@@ -38,6 +38,7 @@ const Footer = () => {
             href="https://github.com/kuri-sun"
             target="_blank"
             rel="noreferrer"
+            aria-label="Github"
           >
             <AiFillGithub size="3rem" />
           </SocialIcons>
@@ -45,6 +46,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/haruki-kuriwada-97591220b/"
             target="_blank"
             rel="noreferrer"
+            aria-label="LinkedIn"
           >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
@@ -52,6 +54,7 @@ const Footer = () => {
             href="https://twitter.com/Haruki15Soccer"
             target="_blank"
             rel="noreferrer"
+            aria-label="Twitter"
           >
             <AiFillTwitterCircle size="3rem" />
           </SocialIcons>

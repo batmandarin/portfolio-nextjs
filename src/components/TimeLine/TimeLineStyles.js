@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CarouselContainer = styled.ul`
+export const CarouselContainer = styled.div`
   max-width: 1040px;
   padding: 0rem;
   list-style: none;
@@ -61,7 +61,7 @@ export const CarouselItem = styled.div`
   }
 `;
 
-export const CarouselItemTitle = styled.h4`
+export const CarouselItemTitle = styled.div`
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
@@ -144,7 +144,7 @@ export const CarouselButton = styled.button`
   margin-right: 4px;
   opacity: ${(props) => (props.active === props.index ? `1` : `.33`)};
   transform: ${(props) =>
-    props.active === props.index ? `scale(1.6)` : `scale(1)`};
+    props.active === props.index ? `scale(1.4)` : `scale(1)`};
 
   &:focus {
     outline: none;
@@ -155,6 +155,6 @@ export const CarouselButtonDot = styled.div`
   background-color: white;
   border-radius: 10px;
   margin: auto;
-  width: 3px;
-  height: 3px;
+  width: 5px;
+  height: 5px;
 `;

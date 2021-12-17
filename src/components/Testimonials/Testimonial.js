@@ -20,7 +20,7 @@ const Testimonial = () => {
       <GridContainer>
         {testmonials.map((testmonial, index) => (
           <TestimonialCard key={index}>
-            <Img src={testmonial.image} />
+            <Img src={testmonial.image} alt={testmonial.name} />
             <Name>
               <strong>{testmonial.name}</strong> from
               <A href={testmonial.companyUrl} target="_blank" rel="noreferrer">

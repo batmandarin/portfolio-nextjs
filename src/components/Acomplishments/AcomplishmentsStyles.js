@@ -57,7 +57,7 @@ export const Box = styled.div`
     }
   }
 `;
-export const BoxNum = styled.h5`
+export const BoxNum = styled.div`
   font-style: italic;
   font-weight: 1000;
   font-size: 36px;
@@ -118,7 +118,7 @@ export const Join = styled.div`
   }
 `;
 
-export const JoinText = styled.h5`
+export const JoinText = styled.div`
   display: flex;
   font-size: 24px;
   line-height: 40px;

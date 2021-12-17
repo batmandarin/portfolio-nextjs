@@ -36,16 +36,19 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link rel="apple-touch-icon" href="./haruki.png"></link>
           <link
             href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
             rel="stylesheet"
           />
           <title>haruki portfolio</title>
           <meta key="haruki kuriwada 栗和田 玄紀 kuri-sun" />
-          <meta name="robots" content="noindex"></meta>
+          <link rel="shortcut icon" type="image/jpg" href="./favicon.ico" />
+          <meta name="robots"></meta>
+          <meta name="theme-color"></meta>
           <meta
             name="description"
-            content="This is Kuri-sun portfolio page. Take a look Thank you. I am a developper in Vancouver.#kuri-sun"
+            content="This is Kuri-sun portfolio page. My name is Haruki Kuriwada. I am a developper in Vancouver.Take a look, Thank you. #kuri-sun"
           />
         </Head>
         <body>

@@ -33,21 +33,21 @@ const Header = () => {
         </Link>
       </Div1>
       <Div2>
-        <li>
+        <>
           <Link href="/#projects">
             <NavLink>Projects</NavLink>
           </Link>
-        </li>
-        <li>
+        </>
+        <>
           <Link href="/#tech">
             <NavLink> Technology</NavLink>
           </Link>
-        </li>
-        <li>
+        </>
+        <>
           <Link href="/#about">
-            <NavLink> About</NavLink>
+            <NavLink>About</NavLink>
           </Link>
-        </li>
+        </>
       </Div2>
 
       <Div3>
@@ -60,6 +60,7 @@ const Header = () => {
           target="_blank"
           rel="noreferrer"
           href="https://github.com/kuri-sun"
+          aria-label="Github"
         >
           <AiFillGithub size="2.5rem" />
         </SocialIcons>
@@ -67,6 +68,7 @@ const Header = () => {
           target="_blank"
           rel="noreferrer"
           href="https://www.linkedin.com/in/haruki-kuriwada-97591220b/"
+          aria-label="LinkedIn"
         >
           <AiFillLinkedin size="2.5rem" />
         </SocialIcons>
@@ -74,6 +76,7 @@ const Header = () => {
           target="_blank"
           rel="noreferrer"
           href="https://twitter.com/Haruki15Soccer"
+          aria-label="Twitter"
         >
           <AiFillTwitterCircle size="2.5rem" />
         </SocialIcons>

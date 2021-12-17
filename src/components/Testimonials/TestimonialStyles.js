@@ -10,13 +10,15 @@ export const TestimonialCard = styled.div`
   margin: 0.3rem 1rem 0.3rem 3rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     color: white;
-    width: 100%;
+    width: 90%;
+    margin: 0.3rem 2rem 0.3rem 3rem;
   }
 `;
 
 export const Img = styled.img`
   object-fit: cover;
   width: 45%;
+  height: 45%;
   border-radius: 75%;
   border: 5px solid #ededed;
   margin: 2rem 2rem 2rem 1rem;
@@ -57,7 +59,14 @@ export const CardInfo = styled.div`
   border-radius: 5px;
   padding: 2.9rem;
   margin: 2rem;
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 2rem;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 10px;
+    line-height: 16px;
     padding: 2rem;
   }
   transition: 0.6s;

@@ -23,6 +23,7 @@ export const Span = styled.span`
   font-style: normal;
   font-weight: 500;
   margin-left: 1rem;
+  margin-right: 1rem;
   opacity: 0.9;
   transition: 0.6s;
   &:hover {
@@ -68,6 +69,7 @@ export const Div3 = styled.div`
 export const NavLink = styled.a`
   font-size: 2rem;
   font-weight: 400;
+  margin: 0.6rem;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.5s ease;
@@ -77,8 +79,13 @@ export const NavLink = styled.a`
     cursor: pointer;
     font-weight: 1000;
   }
+  media ${(props) => props.theme.breakpoints.md} {
+    padding: 1rem;
+    font-size: 1.8rem;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
+    font-size: 1.8rem;
   }
 `;
 

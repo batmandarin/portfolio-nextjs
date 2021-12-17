@@ -40,7 +40,7 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #ffffff;
+  color: #fff;
   padding: 0.5rem 0;
   font-size: ${(props) => (props.title ? "3rem" : "2rem")};
 `;
@@ -75,7 +75,7 @@ export const CardInfo = styled.p`
   }
 `;
 
-export const UtilityList = styled.ul`
+export const UtilityList = styled.div`
   list-style-type: none;
   padding: 0;
   display: flex;

@@ -34,7 +34,7 @@ const Timeline = () => {
 
     if (carouselRef.current) {
       const scrollLeft = Math.floor(
-        carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length)
+        carouselRef.current.scrollWidth * 0.6 * (i / TimeLineData.length)
       );
 
       scroll(carouselRef.current, scrollLeft);
@@ -45,7 +45,7 @@ const Timeline = () => {
     if (carouselRef.current) {
       const index = Math.round(
         (carouselRef.current.scrollLeft /
-          (carouselRef.current.scrollWidth * 0.7)) *
+          (carouselRef.current.scrollWidth * 0.6)) *
           TimeLineData.length
       );
 
@@ -103,17 +103,20 @@ const Timeline = () => {
         </>
       </CarouselContainer>
       <CarouselButtons>
-        {TimeLineData.map(({ item, index }) => (
-          <CarouselButton
-            key={index}
-            index={index}
-            active={activeItem}
-            onClick={(e) => handleClick(e, index)}
-            type="button"
-          >
-            <CarouselButtonDot active={activeItem} />
-          </CarouselButton>
-        ))}
+        {TimeLineData.map((item, index) => {
+          return (
+            <CarouselButton
+              key={index}
+              index={index}
+              active={activeItem}
+              onClick={(e) => handleClick(e, index)}
+              type="button"
+              name="timeline"
+            >
+              <CarouselButtonDot active={activeItem}>.</CarouselButtonDot>
+            </CarouselButton>
+          );
+        })}
       </CarouselButtons>
     </Section>
   );
