@@ -51,7 +51,7 @@ export default class MyDocument extends Document {
           <link
             rel="manifest"
             href="/app.webmanifest"
-            crossorigin="use-credentials"
+            crossOrigin="use-credentials"
           />
           <link rel="shortcut icon" type="image/jpg" href="./favicon.ico" />
           <meta name="robots"></meta>
