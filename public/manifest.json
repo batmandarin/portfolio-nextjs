@@ -16,7 +16,7 @@
   "start_url": "/index.html",
   "background_color": "#fff",
   "display": "standalone",
-  "scope": "/app/",
+  "scope": "https://harukurigandai.com/",
   "theme_color": "#fff",
   "prefer_related_applications": true
 }

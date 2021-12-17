@@ -20,7 +20,9 @@ const Testimonial = () => {
           <TestimonialCard key={index}>
             <Img
               src={testmonial.image}
-              srcSet={testmonial.image}
+              srcSet={
+                testmonial.image + " 480w, " + testmonial.image + " 1080w"
+              }
               sizes="50vw"
               alt={testmonial.name}
             />
