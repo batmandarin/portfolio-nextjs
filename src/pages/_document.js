@@ -46,7 +46,7 @@ export default class MyDocument extends Document {
           <meta key="haruki kuriwada 栗和田 玄紀 kuri-sun" />
           <link rel="shortcut icon" type="image/jpg" href="./favicon.ico" />
           <meta name="robots"></meta>
-          <meta name="theme-color"></meta>
+          <meta name="theme-color" content="#ffffff"></meta>
           <meta
             name="description"
             content="This is Kuri-sun portfolio page. My name is Haruki Kuriwada. Take a look, Thank you. #kuri-sun"
