@@ -143,18 +143,8 @@ export const CarouselButton = styled.button`
   cursor: pointer;
   margin-right: 4px;
   opacity: ${(props) => (props.active === props.index ? `1` : `.33`)};
-  transform: ${(props) =>
-    props.active === props.index ? `scale(1.4)` : `scale(1)`};
-
+  font-size: 30px;
   &:focus {
     outline: none;
   }
-`;
-
-export const CarouselButtonDot = styled.div`
-  background-color: white;
-  border-radius: 10px;
-  margin: auto;
-  width: 5px;
-  height: 5px;
 `;

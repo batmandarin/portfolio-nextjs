@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import {
   CarouselButton,
-  CarouselButtonDot,
   CarouselButtons,
   CarouselContainer,
   CarouselItem,
@@ -109,7 +108,7 @@ const Timeline = () => {
               type="button"
               name="timeline"
             >
-              <CarouselButtonDot active={activeItem}></CarouselButtonDot>
+              .
             </CarouselButton>
           );
         })}
