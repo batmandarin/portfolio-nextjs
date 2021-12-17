@@ -48,6 +48,11 @@ export default class MyDocument extends Document {
             name="keywords"
             content="haruki kuriwada 栗和田 玄紀 kuri-sun"
           />
+          <link
+            rel="manifest"
+            href="/app.webmanifest"
+            crossorigin="use-credentials"
+          />
           <link rel="shortcut icon" type="image/jpg" href="./favicon.ico" />
           <meta name="robots"></meta>
           <meta name="theme-color" content="#ffffff"></meta>
