@@ -34,7 +34,7 @@ export const SectionTitle = styled.h2`
   background: linear-gradient(
     121.57deg,
     #ffffff 18.77%,
-    rgba(255, 255, 255, 0.66) 60.15%
+    rgba(255, 255, 255, 0.77) 60.15%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -67,7 +67,7 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 500;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.77);
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
