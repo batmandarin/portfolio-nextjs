@@ -23,7 +23,7 @@ export const GridContainer = styled.section`
 `;
 export const BlogCard = styled.div`
   border-radius: 10px;
-  background-color: #a7a7a7;
+  background-color: #fafafa;
   box-shadow: 7px 7px 20px rgba(80, 78, 78, 0.8);
   text-align: center;
   width: 400px;
@@ -35,12 +35,13 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  margin-top: 1.5rem;
 `;
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #fff;
+  color: #000;
   padding: 0.5rem 0;
   font-size: ${(props) => (props.title ? "3rem" : "2rem")};
 `;

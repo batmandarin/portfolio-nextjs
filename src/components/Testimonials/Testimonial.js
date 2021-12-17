@@ -2,7 +2,6 @@ import React from "react";
 import {
   Section,
   SectionDivider,
-  SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { GridContainer } from "../Projects/ProjectsStyles";
@@ -16,7 +15,6 @@ const Testimonial = () => {
     <Section style={{ marginBottom: "3rem" }}>
       <SectionDivider />
       <SectionTitle>Testimonials</SectionTitle>
-      <SectionText>Here are what my clients said.</SectionText>
       <GridContainer>
         {testmonials.map((testmonial, index) => (
           <TestimonialCard key={index}>

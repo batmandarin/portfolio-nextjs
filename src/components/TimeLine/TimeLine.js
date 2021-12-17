@@ -13,7 +13,6 @@ import {
 import {
   Section,
   SectionDivider,
-  SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
@@ -67,10 +66,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionDivider />
       <SectionTitle>About me</SectionTitle>
-      <SectionText>
-        I am CICCC student. Now I am studying mobile development.
-        <br />I started to love to use JavaScript.
-      </SectionText>
+      <br />
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -113,7 +109,7 @@ const Timeline = () => {
               type="button"
               name="timeline"
             >
-              <CarouselButtonDot active={activeItem}>.</CarouselButtonDot>
+              <CarouselButtonDot active={activeItem}></CarouselButtonDot>
             </CarouselButton>
           );
         })}

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
-  background-color: #0f1624;
+  background-color: #e7e7e7;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
@@ -19,6 +19,7 @@ export const Container = styled.div`
 `;
 
 export const Span = styled.span`
+  color: #4e4e4e;
   font-size: 2rem;
   font-style: normal;
   font-weight: 500;
@@ -27,7 +28,7 @@ export const Span = styled.span`
   opacity: 0.9;
   transition: 0.6s;
   &:hover {
-    color: #fff;
+    color: #4e4e4e;
     opacity: 1;
     cursor: pointer;
     font-weight: 1000;
@@ -71,10 +72,10 @@ export const NavLink = styled.a`
   font-weight: 400;
   margin: 0.6rem;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: #4e4e4e;
   transition: 0.5s ease;
   &:hover {
-    color: #fff;
+    color: #4e4e4e;
     opacity: 1;
     cursor: pointer;
     font-weight: 1000;
@@ -82,10 +83,12 @@ export const NavLink = styled.a`
   media ${(props) => props.theme.breakpoints.md} {
     padding: 1rem;
     font-size: 1.8rem;
+    color: #4e4e4e;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
     font-size: 1.8rem;
+    color: #4e4e4e;
   }
 `;
 
@@ -111,12 +114,12 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 
 export const SocialIcons = styled.a`
   transition: 0.3s ease;
-  color: white;
+  color: #4e4e4e;
   border-radius: 50px;
   padding: 8px;
   &:hover {
-    color: white;
-    background-color: gray;
+    color: #4e4e4e;
+    background-color: #fafafa;
     transform: scale(1.2);
     cursor: pointer;
   }

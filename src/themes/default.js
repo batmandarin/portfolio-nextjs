@@ -7,8 +7,7 @@ export default {
   // Colors for layout
   colors: {
     primary1: "hsl(204,23.8%,95.9%)",
-    background1:
-      "linear-gradient(121.57deg, gray 18.77%, rgba(0, 0, 0, 1) 60.15%)",
+    background1: "linear-gradient(121.57deg, #B1A478 18.77%, #DECE96 60.15%)",
     accent1: "hsl(34.9,98.6%,72.9%)",
     button: "hsl(205.1,100%,36.1%)",
     background2: "hsl(232.7,27.3%,23.7%)",

@@ -36,6 +36,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link rel="manifest" href="./manifest.json"></link>
           <link rel="apple-touch-icon" href="./haruki.png"></link>
           <link
             href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
@@ -48,7 +49,7 @@ export default class MyDocument extends Document {
           <meta name="theme-color"></meta>
           <meta
             name="description"
-            content="This is Kuri-sun portfolio page. My name is Haruki Kuriwada. I am a developper in Vancouver.Take a look, Thank you. #kuri-sun"
+            content="This is Kuri-sun portfolio page. My name is Haruki Kuriwada. Take a look, Thank you. #kuri-sun"
           />
         </Head>
         <body>

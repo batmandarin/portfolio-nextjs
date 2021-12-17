@@ -29,7 +29,7 @@ const Projects = ({ products }) => {
             <Img src={image} alt={title} />
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
-              <hr />
+              <hr style={{ background: "black" }} />
               <br />
             </TitleContent>
             <CardInfo>{description}</CardInfo>

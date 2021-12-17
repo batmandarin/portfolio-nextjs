@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 export const TestimonialCard = styled.div`
   border-radius: 10px;
-  background-color: #a7a7a7;
+  background-color: #fafafa;
   color: white;
-  box-shadow: 10px 10px 20px rgba(90, 88, 88, 0.9);
   text-align: center;
   width: 90%;
   margin: 0.3rem 1rem 0.3rem 3rem;
@@ -20,7 +19,7 @@ export const Img = styled.img`
   width: 45%;
   height: 45%;
   border-radius: 75%;
-  border: 5px solid #ededed;
+  border: 5px solid #dece96;
   margin: 2rem 2rem 2rem 1rem;
 `;
 
@@ -55,7 +54,7 @@ export const Company = styled.div`
 
 export const CardInfo = styled.div`
   color: black;
-  background-color: white;
+  background-color: #e8e8e8;
   border-radius: 5px;
   padding: 2.9rem;
   margin: 2rem;
@@ -81,7 +80,7 @@ export const A = styled.a`
   font-size: 1.7rem;
   transition: 0.6s;
   &:hover {
-    color: #ffffff;
-    text-shadow: 2px 2px #48db94;
+    color: white;
+    text-shadow: 2px 2px #dece96;
   }
 `;
