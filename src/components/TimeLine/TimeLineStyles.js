@@ -67,11 +67,10 @@ export const CarouselItemTitle = styled.div`
   line-height: 32px;
   letter-spacing: 0.02em;
   display: flex;
-  /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
   background: linear-gradient(
     121.57deg,
     #ffffff 10%,
-    rgba(255, 255, 255, 0.66) 30.15%
+    rgba(255, 255, 255, 0.9) 30.15%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -142,8 +141,8 @@ export const CarouselButton = styled.button`
   border: none;
   cursor: pointer;
   margin-right: 4px;
-  opacity: ${(props) => (props.active === props.index ? `1` : `.33`)};
-  font-size: 30px;
+  opacity: ${(props) => (props.active === props.index ? `1` : `.2`)};
+  font-size: 35px;
   &:focus {
     outline: none;
   }

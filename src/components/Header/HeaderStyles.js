@@ -4,8 +4,8 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: grid;
   background-color: #e7e7e7;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 1fr;
+  grid-template-columns: repeat(5, 2fr);
+  grid-template-rows: 2fr;
   grid-column-gap: 2rem;
   padding: 2.7rem;
   padding-top: 2.5rem;
@@ -24,7 +24,7 @@ export const Span = styled.span`
   font-style: normal;
   font-weight: 500;
   margin-left: 1rem;
-  margin-right: 1rem;
+  margin-right: 3rem;
   opacity: 0.9;
   transition: 0.6s;
   &:hover {
@@ -50,6 +50,7 @@ export const Div2 = styled.div`
   justify-content: space-around;
   transition: 0.4s;
   padding-top: 0.5rem;
+  margin-left: 1.8rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
     font-size: 1.5rem;

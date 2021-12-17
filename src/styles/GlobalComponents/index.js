@@ -34,7 +34,7 @@ export const SectionTitle = styled.h2`
   background: linear-gradient(
     121.57deg,
     #ffffff 18.77%,
-    rgba(255, 255, 255, 0.77) 60.15%
+    rgba(255, 255, 255, 0.9) 60.15%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

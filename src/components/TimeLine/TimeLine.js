@@ -80,17 +80,7 @@ const Timeline = () => {
                 active={activeItem}
                 onClick={(e) => handleClick(e, index)}
               >
-                <CarouselItemTitle key={index}>
-                  {item.year}
-                  <CarouselItemImg
-                    key={index}
-                    width="208"
-                    height="6"
-                    viewBox="0 0 208 6"
-                    fill="none"
-                    xmlns="https://www.w3.org/2000/svg"
-                  ></CarouselItemImg>
-                </CarouselItemTitle>
+                <CarouselItemTitle key={index}>{item.year}</CarouselItemTitle>
                 <CarouselItemText>{item.text}</CarouselItemText>
               </CarouselItem>
             </CarouselMobileScrollNode>

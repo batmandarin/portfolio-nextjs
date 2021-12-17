@@ -31,7 +31,7 @@ export const Box = styled.div`
   border-radius: 12px;
   height: 144px;
   padding: 24px;
-  opacity: 0.9;
+  opacity: 0.8;
   transition: 0.5s;
   &:hover {
     color: #fff;

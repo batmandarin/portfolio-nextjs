@@ -27,7 +27,7 @@ const Header = () => {
               color: "white",
             }}
           >
-            <Span>Kuri-sun</Span>
+            <Span>Haruki</Span>
           </a>
         </Link>
       </Div1>
