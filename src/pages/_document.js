@@ -43,10 +43,10 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <title>haruki portfolio</title>
-          <meta key="haruki kuriwada 栗和田 玄紀 kuri-sun" />
+          <meta key="haruki kuriwada Haruki Kuriwada 栗和田 玄紀 kuri-sun 岩手大学 岩手県 kuri-sun iwate university Iwate Morioka" />
           <meta
             name="keywords"
-            content="haruki kuriwada 栗和田 玄紀 kuri-sun"
+            content="haruki kuriwada 栗和田 玄紀 岩手大学 岩手県 kuri-sun iwate university Iwate Morioka"
           />
           <meta name="msapplication-config" content="none" />
           <link
@@ -59,7 +59,7 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content="#ffffff"></meta>
           <meta
             name="description"
-            content="This is Kuri-sun portfolio page. My name is Haruki Kuriwada. Take a look, Thank you. #kuri-sun"
+            content="This is Kuri-sun portfolio page. I am Haruki Kuriwada from Japan. I recently graduated from Iwate University(Japan).This is my portfolio. Take a look, Thank you. #kuri-sun"
           />
         </Head>
         <body>
