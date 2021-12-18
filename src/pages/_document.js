@@ -27,6 +27,7 @@ export default class MyDocument extends Document {
       sheet.seal();
     }
   }
+
   render() {
     return (
       <Html lang="en">
@@ -43,10 +44,10 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <title>haruki portfolio</title>
-          <meta key="haruki kuriwada Haruki Kuriwada 栗和田 玄紀 kuri-sun 岩手大学 岩手県 kuri-sun iwate university Iwate Morioka" />
+          <meta key="haruki kuriwada Haruki Kuriwada 栗和田 玄紀 kuri-sun 岩手大学 岩手県 kuri-sun iwate university Iwate Morioka Vancouver Canada Junior Web Developer" />
           <meta
             name="keywords"
-            content="haruki kuriwada 栗和田 玄紀 岩手大学 岩手県 kuri-sun iwate university Iwate Morioka"
+            content="haruki kuriwada 栗和田 玄紀 岩手大学 岩手県 kuri-sun iwate university Iwate Morioka Vancouver Canada Junior Web Developer"
           />
           <meta name="msapplication-config" content="none" />
           <link
@@ -55,7 +56,6 @@ export default class MyDocument extends Document {
             crossOrigin="use-credentials"
           />
           <link rel="shortcut icon" type="image/jpg" href="./favicon.ico" />
-          <meta name="robots"></meta>
           <meta name="theme-color" content="#ffffff"></meta>
           <meta
             name="description"
