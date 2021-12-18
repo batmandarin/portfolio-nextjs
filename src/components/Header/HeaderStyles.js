@@ -9,6 +9,7 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 2.7rem;
   padding-top: 2.5rem;
+  opacity: 0.9;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -112,7 +113,6 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 `;
 
 // Social Icons
-
 export const SocialIcons = styled.a`
   transition: 0.7s ease;
   color: #4e4e4e;
