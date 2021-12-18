@@ -48,6 +48,7 @@ export default class MyDocument extends Document {
             name="keywords"
             content="haruki kuriwada 栗和田 玄紀 kuri-sun"
           />
+          <meta name="msapplication-config" content="none" />
           <link
             rel="manifest"
             href="/app.webmanifest"

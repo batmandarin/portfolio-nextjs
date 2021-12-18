@@ -18,14 +18,18 @@ const Testimonial = () => {
       <GridContainer>
         {testmonials.map((testmonial, index) => (
           <TestimonialCard key={index}>
-            <Img
-              src={testmonial.image}
-              srcSet={
-                testmonial.image + " 480w, " + testmonial.image + " 1080w"
-              }
-              sizes="50vw"
-              alt={testmonial.name}
-            />
+            <picture>
+              <source type="image/webp" srcSet={testmonial.webpImage}></source>
+              <source type="image/jpeg" srcSet={testmonial.jpegImage}></source>
+              <Img
+                src={testmonial.image}
+                srcSet={
+                  testmonial.image + " 480w, " + testmonial.image + " 1080w"
+                }
+                sizes="50vw"
+                alt={testmonial.name}
+              />
+            </picture>
             <Name>
               <strong>{testmonial.name}</strong> from
               <A href={testmonial.companyUrl} target="_blank" rel="noreferrer">
