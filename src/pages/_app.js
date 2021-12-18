@@ -2,7 +2,7 @@ import Theme from "../styles/theme";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect } from "react";
 
-export default function App({ Component, pageProps }) {
+export default App = ({ Component, pageProps }) => {
   // to enable Service-Worker
   useEffect(() => {
     if ("serviceWorker" in navigator) {
@@ -34,4 +34,4 @@ export default function App({ Component, pageProps }) {
       </Theme>
     </>
   );
-}
+};
