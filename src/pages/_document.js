@@ -59,7 +59,7 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content="#ffffff"></meta>
           <meta
             name="description"
-            content="This is Kuri-sun portfolio page. I am Haruki Kuriwada from Japan. I recently graduated from Iwate University(Japan).This is my portfolio. Take a look, Thank you. #kuri-sun"
+            content="This is Kuri-sun portfolio page. I am Haruki Kuriwada from Japan. I recently graduated from Iwate University(Japan), Now I am in Vancouver as a Web-developer.This is my portfolio. Take a look, Thank you. #kuri-sun"
           />
         </Head>
         <body>
