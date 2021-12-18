@@ -1,10 +1,30 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
+import { useEffect } from "react";
 import { ServerStyleSheet } from "styled-components";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
     const originalRenderPage = ctx.renderPage;
+
+    // to enable Service-Worker
+    useEffect(() => {
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("/sw.js", { scope: "/" }).then(
+            function (registration) {
+              console.log(
+                "Service Worker registration successful with scope: ",
+                registration.scope
+              );
+            },
+            function (err) {
+              console.log("Service Worker registration failed: ", err);
+            }
+          );
+        });
+      }
+    }, []);
 
     try {
       ctx.renderPage = () =>
