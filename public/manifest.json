@@ -21,7 +21,7 @@
       "purpose": "any maskable monochrome"
     }
   ],
-  "start_url": "/",
+  "start_url": "https://portfolio-vercel-version.vercel.app//",
   "background_color": "#fff",
   "display": "standalone",
   "theme_color": "#fff",
