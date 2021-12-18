@@ -38,6 +38,3 @@ yarn-error.log*
 
 # local environment
 .next.config.js
-
-# google search console
-public/googlecffc5edcb93073b4.html

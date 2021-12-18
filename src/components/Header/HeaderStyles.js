@@ -20,7 +20,7 @@ export const Container = styled.div`
 
 export const Span = styled.span`
   color: #4e4e4e;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 500;
   margin-left: 1rem;
