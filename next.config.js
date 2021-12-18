@@ -1,4 +1,4 @@
 // next.config.js
 const withOffline = require("next-offline");
 
-module.exports = withOffline({ dontAutoRegisterSw: true });
+module.exports = withOffline();
