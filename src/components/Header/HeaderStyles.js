@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
-  background-color: #e7e7e7;
+  background-color: #4e4e4e;
   grid-template-columns: repeat(5, 2fr);
   grid-template-rows: 2fr;
   grid-column-gap: 2rem;
@@ -119,7 +119,7 @@ export const SocialIcons = styled.a`
   border-radius: 50px;
   padding: 8px;
   &:hover {
-    color: #4e4e4e;
+    color: white;
     background-color: #fafafa;
     transform: scale(1.2);
     cursor: pointer;
