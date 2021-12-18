@@ -3,13 +3,10 @@ if ("serviceWorker" in navigator) {
     .register("./service-worker.js")
     .then(function (registration) {
       // Registration was successful``
-      console.log(
-        "ServiceWorker registration successful with scope: ",
-        registration.scope
-      );
+      console.log("ServiceWorker registration successful");
     })
     .catch(function (err) {
       // registration failed :(
-      console.log("ServiceWorker registration failed: ", err);
+      console.log("ServiceWorker registration failed");
     });
 }
