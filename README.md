@@ -1,7 +1,5 @@
 # My personal Website !!
 
-Finally!! I create website based on a lot of other's website.😁😁😁
-
 ### I used ...
 
 - ⚡️ Next.js
