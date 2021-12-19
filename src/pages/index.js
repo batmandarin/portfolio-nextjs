@@ -10,7 +10,6 @@ import Loading from "../components/Loading/Loading";
 import Failing from "../components/Failing/Failing";
 import Header from "../components/Header/Header";
 import Testimonial from "../components/Testimonials/Testimonial";
-import { useEffect } from "react";
 
 const githubAPIEndpoint = "https://api.github.com/users/kuri-sun";
 
@@ -18,30 +17,6 @@ const githubAPIEndpoint = "https://api.github.com/users/kuri-sun";
 let fetcher = (...url) => fetch(...url).then((r) => r.json());
 
 const Home = () => {
-  // to enable Service-Worker
-  useEffect(() => {
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", function () {
-        navigator.serviceWorker
-          .register("/sw.js", {
-            scope: "/",
-            registrationStrategy: "registerImmediately",
-          })
-          .then(
-            function (registration) {
-              console.log(
-                "Service Worker registration successful with scope: ",
-                registration.scope
-              );
-            },
-            function (err) {
-              console.log("Service Worker registration failed: ", err);
-            }
-          );
-      });
-    }
-  }, []);
-
   // useSWR
   const { data: data_1, error: error_1 } = useSWR("/api/projects", fetcher);
   const { data: data_2, error: error_2 } = useSWR(githubAPIEndpoint, fetcher);
