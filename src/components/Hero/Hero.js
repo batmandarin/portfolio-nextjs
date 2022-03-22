@@ -20,7 +20,7 @@ const Hero = (props) => (
       <Button
         onClick={() =>
           window.open(
-            "https://docs.google.com/document/d/1dpH7ZGRcXgTWkY6UjsrqOUMmWLuCTglBk2pQV3XfX1E/edit?usp=sharing",
+            "https://docs.google.com/document/d/1f0cyq2f1X4ymm91jJxOjKQ-1FE85z-N9fu73PwWw2PA/edit?usp=sharing",
             "_blank",
             "noreferrer"
           )
