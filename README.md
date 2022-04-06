@@ -1,11 +1,11 @@
 # My Portfolio
 
-### I used
-- ⚡️ Next.js
-- ⚡️ Vercel
-- ⚡️ NodeJS
-- ⚡️ MongoDB
-- ⚡️ Github-API
+### I used 
+⚡️ Next.js <br/>
+⚡️ Vercel <br/>
+⚡️ NodeJS <br/>
+⚡️ MongoDB <br/>
+⚡️ Github-API <br/>
 
 ### 1. Landing(Main) page
 - styled-component dependencies to use CSS to design page 
