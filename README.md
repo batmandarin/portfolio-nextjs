@@ -8,23 +8,28 @@
 ### 1. Landing(Main) page
 - styled-component dependencies to use CSS to design page 
 - using react-SWR library to first return the data from cache instead of using axios.
+<br/>
  <img src="./images/landing.jpeg">
  
 ### 2. Show personal projects data
 - connecting to MongoDB cloud and trigger the data.
+<br/>
    <img src="./images/project.jpeg">
 
 ### 3. Github status
 - GithubAPI to show my github status.
+<br/>
    <img src="./images/github.jpeg">
   
 ### 4. Mail feature
 - using NodeMailer dependencies send mail from website.
+<br/>
   <img src="./images/mail.jpeg">
 
-I want to create useful applications more and more ...!!
+<br/><br/>
+I want to create useful applications more and more😀😀😀
 
-# License
+# Apache license
 
     Copyright 2022 Haruki Kuriwada
 
