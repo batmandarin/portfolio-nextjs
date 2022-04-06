@@ -1,7 +1,6 @@
-# My personal Website !!
+# My Portfolio
 
-### I used ...
-
+### I used
 - ⚡️ Next.js
 - ⚡️ Vercel
 - ⚡️ NodeJS
@@ -9,19 +8,20 @@
 - ⚡️ Github-API
 
 ### 1. Landing(Main) page
--  to use CSS to design page 
- <img src="./forreadme/langing.jpeg">
+- styled-component dependencies to use CSS to design page 
+- using SWR library to reduce.
+ <img src="">
  
-### 2. 
-- GithubAPI to show my github status.
-   <img src="./forreadme/achievements.jpeg">
+### 2. Show personal projects data
+- connecting to MongoDB cloud and trigger the data.
+   <img src="">
 
 ### 3. Github status
 - GithubAPI to show my github status.
-   <img src="./forreadme/achievements.jpeg">
+   <img src="">
   
-### 4. Mailer feature
+### 4. Mail feature
 - using NodeMailer dependencies send mail from website.
-  <img src="./forreadme/mail.jpeg">
+  <img src="">
 
 I want to create useful applications more and more ...!!
