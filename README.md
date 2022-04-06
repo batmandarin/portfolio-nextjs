@@ -3,7 +3,7 @@
 ### What I used in this project
 ⚡️ Next.js - Framework <br/>
 ⚡️ Vercel - Deployment <br/>
-⚡️ MongoDB - Database <br/>
+⚡️ MongoDB Cloud - Database <br/>
 
 ### 1. Landing(Main) page
 - styled-component dependencies to use CSS to design page 
