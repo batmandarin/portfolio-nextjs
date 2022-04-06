@@ -1,6 +1,6 @@
 # My Portfolio
 
-### I used 
+### What I used in this project
 ⚡️ Next.js <br/>
 ⚡️ Vercel <br/>
 ⚡️ NodeJS <br/>
