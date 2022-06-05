@@ -18,7 +18,7 @@ import {
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Skills</SectionTitle>
     <List>
       <ListItem>
         <AiFillAndroid size="3rem" />
