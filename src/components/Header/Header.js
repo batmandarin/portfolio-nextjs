@@ -39,22 +39,17 @@ const Header = () => {
         </>
         <>
           <Link href="/#tech">
-            <NavLink> Technology</NavLink>
+            <NavLink>Skills</NavLink>
           </Link>
         </>
         <>
-          <Link href="/#about">
-            <NavLink>About</NavLink>
+          <Link href="/mail">
+            <NavLink>Contact</NavLink>
           </Link>
         </>
       </Div2>
 
       <Div3>
-        <Link href="/mail">
-          <SocialIcons>
-            <AiOutlineMail size="2.5rem" />
-          </SocialIcons>
-        </Link>
         <SocialIcons
           target="_blank"
           rel="noreferrer"

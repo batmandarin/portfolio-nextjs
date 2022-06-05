@@ -1,15 +1,13 @@
-import Acomplishments from "../components/Acomplishments/Acomplishments";
 import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
 import Technologies from "../components/Technologies/Technologies";
-import Timeline from "../components/TimeLine/TimeLine";
+import Testimonial from "../components/Testimonials/Testimonial";
 import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
 import useSWR from "swr";
 import Loading from "../components/Loading/Loading";
 import Failing from "../components/Failing/Failing";
 import Header from "../components/Header/Header";
-import Testimonial from "../components/Testimonials/Testimonial";
 
 const githubAPIEndpoint = "https://api.github.com/users/kuri-sun";
 
@@ -42,8 +40,6 @@ const Home = () => {
       </Section>
       <Projects products={data_1.data} />
       <Technologies />
-      <Timeline />
-      <Acomplishments data={data_2} />
       <Testimonial />
     </Layout>
   );
